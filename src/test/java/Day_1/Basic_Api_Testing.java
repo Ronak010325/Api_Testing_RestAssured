@@ -5,7 +5,6 @@ import static org.hamcrest.Matchers.equalTo;
 
 import java.util.HashMap;
 
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 /*GET REQ
