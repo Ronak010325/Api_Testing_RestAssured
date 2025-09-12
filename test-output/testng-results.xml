@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-05T22:52:37 IST" name="Default suite" finished-at="2025-08-05T22:52:42 IST" duration-ms="4154">
+  <suite started-at="2025-08-11T21:03:38 IST" name="Default suite" finished-at="2025-08-11T21:03:43 IST" duration-ms="4618">
     <groups>
     </groups>
-    <test started-at="2025-08-05T22:52:37 IST" name="Default test" finished-at="2025-08-05T22:52:42 IST" duration-ms="4154">
-      <class name="Day_3.headerDemo">
-        <test-method signature="getHeaders()[pri:0, instance:Day_3.headerDemo@5c6648b0]" started-at="2025-08-05T22:52:38 IST" name="getHeaders" finished-at="2025-08-05T22:52:42 IST" duration-ms="4039" status="PASS">
+    <test started-at="2025-08-11T21:03:38 IST" name="Default test" finished-at="2025-08-11T21:03:43 IST" duration-ms="4618">
+      <class name="Day_6.schemaValidation">
+        <test-method signature="testJSONSchema()[pri:0, instance:Day_6.schemaValidation@4c583ecf]" started-at="2025-08-11T21:03:38 IST" name="testJSONSchema" finished-at="2025-08-11T21:03:43 IST" duration-ms="4520" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getHeaders -->
-      </class> <!-- Day_3.headerDemo -->
+        </test-method> <!-- testJSONSchema -->
+      </class> <!-- Day_6.schemaValidation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
