@@ -17,7 +17,7 @@ public class Ways_To_Create_Post_Req {
     String baseURL = "http://localhost:3000";
 
     //	1) Post Req Using HashMap (Suitable for small set of Data)
-    @Test(enabled = false)
+    @Test(enabled = true)
     void usingHashMap() {
         HashMap data = new HashMap();
         data.put("name", "Om");
@@ -94,7 +94,7 @@ public class Ways_To_Create_Post_Req {
     }
 
     //	4) Post Req Using External JSON File
-    @Test(enabled = true)
+    @Test(enabled = false)
     void usingExternalJSON() throws FileNotFoundException {
         File fs = new File(System.getProperty("user.dir") + "\\src\\test\\java\\Day_2\\bodyData.json");
         FileReader fr = new FileReader(fs);        //java.io Package

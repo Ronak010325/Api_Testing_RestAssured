@@ -12,7 +12,7 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
 public class parsingJSONResponse {
-	@Test(enabled=false)
+	@Test(enabled=true)
 	void directValidationThenMethod() {
 		given()
 			.contentType("ContentType.JSON")
@@ -30,7 +30,7 @@ public class parsingJSONResponse {
 		Assert.assertEquals(res.jsonPath().get("Students[3].courses[1]").toString(), "JavaScript");
 	}
 	
-	@Test(enabled=true)
+	@Test(enabled=false)
 	void JsonObject() {
 		Response res = given().contentType(ContentType.JSON).when().get("http://localhost:3000/students");
 //		System.out.println(res.toString());
