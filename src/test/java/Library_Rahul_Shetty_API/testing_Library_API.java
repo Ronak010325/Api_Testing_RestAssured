@@ -6,10 +6,13 @@ import static org.hamcrest.Matchers.equalTo;
 import RahulShetty.Payload;
 import io.restassured.response.Response;
 import org.json.JSONObject;
+import org.json.JSONTokener;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.sql.Array;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -17,7 +20,7 @@ import java.util.List;
 
 public class testing_Library_API {
     String base_URL = "http://216.10.245.166";
-    @Test(priority = 0)
+    @Test(priority = 0, enabled = false)
     public void addBook() {
         HashMap map = new HashMap();
         map.put("name","learn Appium Automation with Java");
@@ -33,6 +36,20 @@ public class testing_Library_API {
         Assert.assertEquals(jsObj.get("Msg"),"successfully added");
 //      You can directly do this using body() after then() but if you want to store the res
 //      and then perform validation then you can go with this method
+    }
+
+    @Test
+    public void addBookFromExternalJSON() throws FileNotFoundException {
+        FileInputStream fi = new FileInputStream(System.getProperty("user.dir")+"//src//test//java//Library_Rahul_Shetty_API//books.json");
+        JSONTokener tk = new JSONTokener(fi);
+        JSONObject ob = new JSONObject(tk);
+        given()
+                .body(ob.toString())
+                .when()
+                .post(base_URL+"/Library/Addbook.php")
+                .then()
+                .statusCode(200)
+                .log().all();
     }
 
     @Test(priority = 1, dependsOnMethods = {"addBook"}, enabled = false)

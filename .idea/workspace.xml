@@ -5,14 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abb75c51-d50e-4ec8-ba39-6cc4d75b0716" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Library_Rahul_Shetty_API/books.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Library_Rahul_Shetty_API/testing_Library_API.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Library_Rahul_Shetty_API/testing_Library_API.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Library_Rahul_Shetty_API/DataDriven_UsingExcel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Library_Rahul_Shetty_API/DataDriven_UsingExcel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Library_Rahul_Shetty_API/testing_Library_API.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Library_Rahul_Shetty_API/testing_Library_API.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,10 +41,75 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "TestNG.testing_Authentication.executor": "Run",
+    "TestNG.testing_Authentication.testOauth.executor": "Run",
+    "TestNG.testing_Library_API.addBookFromExternalJSON.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="TestNG.testing_Authentication">
+    <configuration name="testing_Authentication" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Api_Testing_RestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Oauth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Oauth" />
+      <option name="MAIN_CLASS_NAME" value="Oauth.testing_Authentication" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testing_Authentication.testOauth" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Api_Testing_RestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Oauth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Oauth" />
+      <option name="MAIN_CLASS_NAME" value="Oauth.testing_Authentication" />
+      <option name="METHOD_NAME" value="testOauth" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testing_Library_API.addBookFromExternalJSON" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Api_Testing_RestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Library_Rahul_Shetty_API.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Library_Rahul_Shetty_API" />
+      <option name="MAIN_CLASS_NAME" value="Library_Rahul_Shetty_API.testing_Library_API" />
+      <option name="METHOD_NAME" value="addBookFromExternalJSON" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.testing_Authentication" />
+        <item itemvalue="TestNG.testing_Authentication.testOauth" />
+        <item itemvalue="TestNG.testing_Library_API.addBookFromExternalJSON" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
