@@ -14,8 +14,8 @@ public class schemaValidation {
 	@Test
 	public void testJSONSchema() {
 		when()
-			.get("http://localhost:3000/students")
-		.then()
-			.assertThat().body(JsonSchemaValidator.matchesJsonSchemaInClasspath("studentJSONSchema.json"));
+				.get("http://localhost:4000/students")
+				.then()
+				.assertThat().body(JsonSchemaValidator.matchesJsonSchemaInClasspath("studentJSONSchema.json"));
 	}
 }

@@ -12,11 +12,11 @@ import io.restassured.path.xml.XmlPath;
 import io.restassured.response.Response;
 
 public class parsingXMLResponse {
-	@Test(enabled=false)
+	@Test(enabled=true)
 	public void testApprouch1() {
 		given()
 		.when()
-			.get("http://localhost:3000/students/xml")
+			.get("http://localhost:3000/students")
 		.then()
 			.statusCode(200)
 			.header("Content-Type", "application/xml; charset=utf-8")
@@ -24,7 +24,7 @@ public class parsingXMLResponse {
 			.log().all();
 	}
 	
-	@Test(enabled=true)
+	@Test(enabled=false)
 	public void testApprouch2() {
 		Response res = given().when().get("http://localhost:3000/students/xml");
 		
