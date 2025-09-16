@@ -3,12 +3,17 @@ package Library_Rahul_Shetty_API;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
+import RahulShetty.Payload;
 import io.restassured.response.Response;
 import org.json.JSONObject;
 import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import java.sql.Array;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 public class testing_Library_API {
     String base_URL = "http://216.10.245.166";
@@ -20,6 +25,7 @@ public class testing_Library_API {
         map.put("aisle","010325");
         map.put("author","Ronak Yadav");
         Response res = given()
+                .header("Content-Type","application/json")
                 .body(map)
                 .when()
                 .post(base_URL+"/Library/Addbook.php");
@@ -29,7 +35,7 @@ public class testing_Library_API {
 //      and then perform validation then you can go with this method
     }
 
-    @Test(priority = 1, dependsOnMethods = {"addBook"})
+    @Test(priority = 1, dependsOnMethods = {"addBook"}, enabled = false)
     public void getBook() {
         given()
                 .queryParam("AuthorName","Ronak Yadav")
@@ -41,7 +47,7 @@ public class testing_Library_API {
                 .log().all();
     }
 
-    @Test(priority = 2, dependsOnMethods = {"addBook"})
+    @Test(priority = 2, dependsOnMethods = {"addBook"}, enabled = false)
     public void getBookById() {
         given()
                 .queryParam("ID","bcd010325")
@@ -53,7 +59,7 @@ public class testing_Library_API {
                 .log().all();
     }
 
-    @Test(priority = 3, dependsOnMethods = {"addBook"})
+    @Test(priority = 3, dependsOnMethods = {"addBook"}, alwaysRun = true)
     public void deleteBook() {
         HashMap map = new HashMap();
         map.put("ID","bcd010325");
