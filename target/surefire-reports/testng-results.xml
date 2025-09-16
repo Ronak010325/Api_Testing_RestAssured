@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-16T12:00:26 IST" name="Surefire suite" finished-at="2025-09-16T12:00:27 IST" duration-ms="1121">
+    <groups>
+    </groups>
+    <test started-at="2025-09-16T12:00:26 IST" name="Surefire test" finished-at="2025-09-16T12:00:27 IST" duration-ms="1121">
+      <class name="RahulShetty.TestCase_JSON_Rahul_Sheety">
+        <test-method signature="jsonPathSection()[pri:0, instance:RahulShetty.TestCase_JSON_Rahul_Sheety@12d3a4e9]" started-at="2025-09-16T12:00:26 IST" name="jsonPathSection" finished-at="2025-09-16T12:00:27 IST" duration-ms="1086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jsonPathSection -->
+      </class> <!-- RahulShetty.TestCase_JSON_Rahul_Sheety -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
