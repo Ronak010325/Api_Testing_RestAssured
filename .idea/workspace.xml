@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abb75c51-d50e-4ec8-ba39-6cc4d75b0716" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Library_Rahul_Shetty_API/books.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Library_Rahul_Shetty_API/testing_Library_API.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Library_Rahul_Shetty_API/testing_Library_API.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Library_Rahul_Shetty_API/DataDriven_UsingExcel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Library_Rahul_Shetty_API/DataDriven_UsingExcel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Library_Rahul_Shetty_API/testing_Library_API.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Library_Rahul_Shetty_API/testing_Library_API.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/Api_Testing_RestAssured/Api_Testing_RestAssured/pom.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +38,23 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "TestNG.DataDriven_UsingExcel.executor": "Run",
+    "TestNG.Serialization_of_POJO.executor": "Run",
+    "TestNG.Serialization_of_POJO.testSerialize.executor": "Run",
+    "TestNG.google_map_API.executor": "Run",
+    "TestNG.google_map_API.testSerialize.executor": "Run",
+    "TestNG.payload_using_POJO_class.executor": "Run",
+    "TestNG.payload_using_POJO_class.testAccessingCourseDetails.executor": "Run",
+    "TestNG.payload_using_POJO_class.testAccessingResponseDetails.executor": "Run",
+    "TestNG.payload_using_POJO_class.testOauth.executor": "Run",
+    "TestNG.specBuilder_Lecture (1).executor": "Run",
+    "TestNG.specBuilder_Lecture (2).executor": "Run",
+    "TestNG.specBuilder_Lecture (3).executor": "Run",
+    "TestNG.specBuilder_Lecture.executor": "Run",
+    "TestNG.specBuilder_Lecture.testAccessingResponseDetails.executor": "Run",
+    "TestNG.specBuilder_Lecture.testDirectRequestSpecification_Instead_Given.executor": "Run",
+    "TestNG.specBuilder_Lecture.testOauth (1).executor": "Run",
+    "TestNG.specBuilder_Lecture.testOauth.executor": "Run",
     "TestNG.testing_Authentication.executor": "Run",
     "TestNG.testing_Authentication.testOauth.executor": "Run",
     "TestNG.testing_Library_API.addBookFromExternalJSON.executor": "Run",
@@ -48,17 +62,17 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.testing_Authentication">
-    <configuration name="testing_Authentication" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.specBuilder_Lecture (1)">
+    <configuration name="specBuilder_Lecture (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Api_Testing_RestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Oauth.*" />
+          <option name="PATTERN" value="Response_Request_Spec_Builder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Oauth" />
-      <option name="MAIN_CLASS_NAME" value="Oauth.testing_Authentication" />
+      <option name="PACKAGE_NAME" value="Response_Request_Spec_Builder" />
+      <option name="MAIN_CLASS_NAME" value="Response_Request_Spec_Builder.specBuilder_Lecture" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -66,16 +80,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testing_Authentication.testOauth" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="specBuilder_Lecture (3)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Api_Testing_RestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Oauth.*" />
+          <option name="PATTERN" value="Response_Request_Spec_Builder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Oauth" />
-      <option name="MAIN_CLASS_NAME" value="Oauth.testing_Authentication" />
+      <option name="PACKAGE_NAME" value="Response_Request_Spec_Builder" />
+      <option name="MAIN_CLASS_NAME" value="Response_Request_Spec_Builder.specBuilder_Lecture" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="specBuilder_Lecture.testAccessingResponseDetails" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Api_Testing_RestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Response_Request_Spec_Builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Response_Request_Spec_Builder" />
+      <option name="MAIN_CLASS_NAME" value="Response_Request_Spec_Builder.specBuilder_Lecture" />
+      <option name="METHOD_NAME" value="testAccessingResponseDetails" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="specBuilder_Lecture.testOauth (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Api_Testing_RestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Response_Request_Spec_Builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Response_Request_Spec_Builder" />
+      <option name="MAIN_CLASS_NAME" value="Response_Request_Spec_Builder.specBuilder_Lecture" />
       <option name="METHOD_NAME" value="testOauth" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -84,17 +133,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testing_Library_API.addBookFromExternalJSON" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="specBuilder_Lecture.testOauth" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Api_Testing_RestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Library_Rahul_Shetty_API.*" />
+          <option name="PATTERN" value="Response_Request_Spec_Builder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Library_Rahul_Shetty_API" />
-      <option name="MAIN_CLASS_NAME" value="Library_Rahul_Shetty_API.testing_Library_API" />
-      <option name="METHOD_NAME" value="addBookFromExternalJSON" />
+      <option name="PACKAGE_NAME" value="Response_Request_Spec_Builder" />
+      <option name="MAIN_CLASS_NAME" value="Response_Request_Spec_Builder.specBuilder_Lecture" />
+      <option name="METHOD_NAME" value="testOauth" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -104,9 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.testing_Authentication" />
-        <item itemvalue="TestNG.testing_Authentication.testOauth" />
-        <item itemvalue="TestNG.testing_Library_API.addBookFromExternalJSON" />
+        <item itemvalue="TestNG.specBuilder_Lecture (1)" />
+        <item itemvalue="TestNG.specBuilder_Lecture.testOauth (1)" />
+        <item itemvalue="TestNG.specBuilder_Lecture.testAccessingResponseDetails" />
+        <item itemvalue="TestNG.specBuilder_Lecture.testOauth" />
+        <item itemvalue="TestNG.specBuilder_Lecture (3)" />
       </list>
     </recent_temporary>
   </component>
